@@ -39,7 +39,7 @@ Run unsafe broswer to bypass restiction site
 ## Usage/Examples
 
 ```python
-    Ex. [https://www.youtube.com/watch?v=5YYyV9kRb-w](https://www.youtube.com/watch?v=0GFQInwzD-o)
+    Ex. "https://www.youtube.com/watch?v=0GFQInwzD-o"
 ```
 
 

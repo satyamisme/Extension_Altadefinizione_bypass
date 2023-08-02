@@ -16,12 +16,12 @@ Install requirement
 
 Clone the project
 ```bash
-  git clone https://link-to-project
+  git clone [https://link-to-project](https://github.com/Ghost6446/Extension_Altadefinizione_bypass.git)
 ```
 
 Go to the project directory
 ```bash
-  cd my-project
+  cd Extension_Altadefinizione_bypass
 ```
 
 Start server
@@ -39,7 +39,7 @@ Run unsafe broswer to bypass restiction site
 ## Usage/Examples
 
 ```python
-    Ex. (LINK : yt)
+    Ex. (LINK : [yt](https://www.youtube.com/watch?v=5YYyV9kRb-w))
 ```
 
 

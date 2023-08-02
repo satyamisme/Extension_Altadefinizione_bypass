@@ -1,0 +1,39 @@
+{
+    "name": "Altadefinizione",
+    "description": "Automatically scrape site",
+    "version": "1.0",
+    "manifest_version": 3,
+
+    "icons": {
+       "16": "./src/offset/alta_16.png",
+       "48": "./src/offset/alta_32.png",
+      "128": "./src/offset/alta_128.png"
+    },
+
+    "permissions": [
+        "storage", 
+        "activeTab", 
+        "tabs", 
+        "debugger",
+        "*://*altadefinizione.haus/*"
+    ],
+
+    "action": {
+		"default_popup": "./src/popup/popup.html"
+	},
+
+    "content_scripts": [{
+        "matches": [
+            "<all_urls>"
+        ],
+        "js": [
+            "./src/content/script.js"
+        ]
+    }],
+
+    "web_accessible_resources": [{
+        "resources" : ["src/content/*"],
+        "matches": ["<all_urls>"]
+    }]
+
+}

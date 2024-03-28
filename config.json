@@ -1,0 +1,37 @@
+{
+    "GENERAL": {
+        "debug": false,
+        "log_file": "debug.txt",
+        "log_to_file": true,
+        "show_message": true,
+        "clean_console": true,
+        "root_path": "videos"
+    },
+    "M3U8": {
+        "tdqm_workers": 20,
+        "tqdm_progress_timeout": 10,
+        "minium_ts_files_in_folder": 15,
+        "donwload_percentage": 0.995,
+        "requests_timeout": 3,
+        "tqdm_show_progress": false,
+        "cleanup_tmp_folder": true
+    },
+    "M3U8_OPTIONS": {
+        "download_audio": true,
+        "download_subtitles": true,
+        "specific_list_audio": [
+            "ita"
+        ],
+        "specific_list_subtitles": [
+            "eng"
+        ],
+        "request": {
+            "index": {
+                "user-agent": ""
+            },
+            "segments": {
+                "user-agent": ""
+            }
+        }
+    }
+}
